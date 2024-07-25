@@ -1,41 +1,33 @@
+header{
+    height: 60px;
+    width: 110%;
+    background-color: #394A58;
+    color: white;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: -10px;
+    font-family:'RussianRail G Pro', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     text-align: center;
     align-content: center;
-    background-color: #FFDDBF;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D9D9D9;
+    font-family:'RussianRail G Regular', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-div {
-    width: 70px; height: 70px;
-    display: inline-block;
-    margin-right: 5px;
-}
-
-div:hover {
-    background: #FFB879;
-}
-.b { background: #3B57A4; }
-.r { background: #33959E; }
-
-ul {list-style-type:  none;}
-
-li{margin: 30px;}
 
 h1 {
     color: #3B57A4;
     font-size:50px;
+    text-decoration: dotted;
 }
 
-h2 {
-    color: #33959E;
+.text {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 140px;   
 }
-
-h3 {
-    color: #28747a;
-    text-decoration: underline dotted;
-}
-
-a{text-decoration: none;}
 
 .text1{
     color: #C47E3F;
@@ -48,91 +40,10 @@ a{text-decoration: none;}
     font-size:40px;
 }
 
-.text2{
-    color: #6D7FB2;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:10px;
-    width: 600px;
-    background: #FFCDA0;
-    border: 4px double #728DD5;
-    padding: 5px;
-    font-size:20px;
-}
-
-.text3{
-    color: #3B57A4;
-    font-weight: 700;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:10px;
-    width: 500px;
-    background: #B8C7ED;
-    border: 4px dashed #C47E3F;
-    padding: 5px;
-    font-size:30px;
-}
-
-.text4{
-    color: #3B57A4;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:10px;
-    border: 4px dotted #728DD5;
-    padding: 5px;
-    font-size:15px;
-}
-
-.text5{
-    color: #33959E;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    width: 300px;
-    border: 4px inset #C47E3F;
-    padding: 5px;
-    font-size:10px;
-}
-
 p{
     color: #33959E;
     font-size:20px;
     background-color: #FFCDA0;
 }
 
-blockquote:before, blockquote:after {
-    font-size: 3em;
-    color: #28747a;
-} 
-   
-blockquote:before {
-    content: '«';
-    float: left;    
-    margin-top: -0.4em;
-}
-   
-blockquote:after {
-    content: '»';
-    float: right;
-    margin-top: -1.5em;
-}
-
-table {
-    width: 100%;
-}
-   
-thead { 
-    padding: 5px; 
-    color: #3B57A4;
-    background: #9FB4ED;
-}
-   
-
-#table tbody tr:nth-child(odd){
-	background: #d2f7d6;
-}
  
-#table tbody tr:nth-child(even){
-	background: #d1fbff;
-}
-
